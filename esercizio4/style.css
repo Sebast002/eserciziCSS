@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    padding-top: 0%;
+    padding-left: 180px;
+  }
+  
+  .flex-container > button {
+    background-color: #2b2b2b;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container button:hover {
+    background-color: #2b2bb2;
+    color:white;
+  }
+  .flex-container button:hover {
+   background-color: #2b2bb2;
+   color:white;
+  }
+
+
+  .logo {
+    display: flex;
+    background-color: DodgerBlue;
+    padding-top: 0%;
+    margin-top: auto;
+    padding-left: 180px;
+  }
+  
+  .logo > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .avatar_name {
+    display: flex;
+    background-color: DodgerBlue;
+    padding-top: 0%;
+    padding-left: 180px;
+
+  }
+  
+  .avatar_name > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .sidebar {
+    height: auto;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 8px;
+    left: 8px;
+    background-color: dodgerblue;
+    background-image: ;
+    overflow-x: hidden;
+    padding-top: 16px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+    
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
